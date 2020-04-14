@@ -65,7 +65,7 @@ app.use("/data", setRoutes)
 // app.use("/api", braintreeRoutes)
 // app.use("/api", orderRoutes)
 
-const port = process.env.PORT
+const port = process.env.PORT || 8000
 // use 8000 if there is no env file
 
 
